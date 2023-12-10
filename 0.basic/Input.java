@@ -9,6 +9,8 @@ public class Input {
         int num2 = sc.nextInt();
 
         System.out.println(num+num2);
+
+        sc.close();
     }
 }
 

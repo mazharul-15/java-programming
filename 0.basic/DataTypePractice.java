@@ -9,6 +9,8 @@ public class DataTypePractice {
 
         Scanner input = new Scanner(System.in);
         this.num = input.nextInt();
+
+        input.close();
     }
 
     public void getValue() {
@@ -25,5 +27,6 @@ public class DataTypePractice {
         DataTypePractice obj = new DataTypePractice();
         obj.setValue();
         obj.getValue();
+
     }   
 }

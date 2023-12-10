@@ -14,6 +14,8 @@ public class InputInJava {
         this.ch = scn.next().charAt(0);
         this.dl = scn.nextDouble();
         this.bt = scn.nextByte();
+
+        scn.close();
     }
 
     public void getValue() {

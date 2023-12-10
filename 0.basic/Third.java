@@ -8,5 +8,7 @@ public class Third {
         a = sc.nextInt();
         b = sc.nextInt();
         System.out.println(a + b +"\n");
+
+        sc.close();
     }
 }

@@ -26,6 +26,6 @@ public class DataType {
         System.out.println("float: " + fl);
         System.out.println("double: " + dl);
 
-
+        input.close();
     }
 }
