@@ -7,6 +7,11 @@ public class FlowControl {
 
         Scanner scn = new Scanner(System.in);
 
+        for(int i = 0; i < 5; i++) {
+            int number = scn.nextInt();
+            System.out.println("Value: " + number);
+        }
+
         //int i = scn.nextInt();
         int n = scn.nextInt();
         
