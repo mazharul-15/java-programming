@@ -36,6 +36,7 @@ public class StringMethodsAll {
 
         int id = s3.indexOf("ladesh");
         System.out.println(id);
-
+        
+        scn.close();
     }
 }

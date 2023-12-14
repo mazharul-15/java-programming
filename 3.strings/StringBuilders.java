@@ -14,6 +14,6 @@ public class StringBuilders {
 
         System.out.println(str);
         
-
+        scn.close();
     }
 }

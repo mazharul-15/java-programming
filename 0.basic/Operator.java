@@ -14,5 +14,7 @@ public class Operator {
         String str = (n < m) ? "Yes" : "No";
 
         System.out.println(str);
+
+        scn.close();
     }
 }
