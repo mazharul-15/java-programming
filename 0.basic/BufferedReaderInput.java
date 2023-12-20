@@ -18,6 +18,6 @@ public class BufferedReaderInput {
         System.out.println(str);
         System.out.println(val);
 
-
+        bfn.close();
     }
 }
