@@ -2,8 +2,6 @@ import java.util.*;
 
 abstract class Shape {
     public String color;
-    
-    abstract void draw();
 
     /// constractor of abstract class
     Shape()
@@ -14,6 +12,14 @@ abstract class Shape {
     Shape(String color)
     {
         this.color = color;
+    }
+
+    /// abstract method
+    abstract void draw();
+
+    /// non-abstract method
+    void func() {
+        
     }
 }
 
