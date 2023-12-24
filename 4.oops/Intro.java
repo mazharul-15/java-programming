@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class Methods {
+class Methods {
     
 }
 

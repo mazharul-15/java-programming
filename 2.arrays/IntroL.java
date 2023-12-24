@@ -6,7 +6,7 @@ public class IntroL {
 
         Scanner scn = new Scanner(System.in);
 
-        System.out.println("Hello World!");
+        ///System.out.println("Hello World!");
         int arr[] = new int[5];
         
         for(int i = 0; i < arr.length; i++) {
@@ -19,5 +19,7 @@ public class IntroL {
 
         int[] val = {1,2,3, 4, 5, 6};
         System.out.println(val.length);
+
+        scn.close();
     }
 }
