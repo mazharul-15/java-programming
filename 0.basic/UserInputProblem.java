@@ -23,6 +23,10 @@ public class UserInputProblem {
         System.out.println("Enter your last name: ");
         lName = scn.nextLine();
 
+        System.out.println("Name: " + fName + " "+ lName);
+        System.out.println("Age: " + age);
+        System.out.println("Weight: " + weight);
+        
         scn.close();
     }
 }

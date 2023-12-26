@@ -36,6 +36,12 @@ public class StringMethodsAll {
 
         int id = s3.indexOf("ladesh");
         System.out.println(id);
+
+        /// string contains
+        String str5 = "GeeksforGeeksfor";
+        String str6 = "for";
+        System.out.println(str5.contains(str6));
+
         
         scn.close();
     }
